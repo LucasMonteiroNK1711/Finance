@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = requir('../database/db');
+const db = require('../database/db');
 
 // Rota para adicionar uma transação
 router.post('/transacoes', (req,res) => {
