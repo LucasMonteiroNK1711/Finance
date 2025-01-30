@@ -22,7 +22,7 @@ O **Controle Financeiro** é uma aplicação web desenvolvida com **HTML, CSS e 
 ## Como Executar o Projeto
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/controle-financeiro.git
+   git clone https://github.com/LucasMonteiroNK1711/Finance
    ```
 2. Acesse o diretório do projeto:
    ```sh
@@ -30,7 +30,7 @@ O **Controle Financeiro** é uma aplicação web desenvolvida com **HTML, CSS e 
    ```
 3. Instale as dependências:
    ```sh
-   npm install
+   npm install sqlite3
    ```
 4. Inicie o servidor:
    ```sh
