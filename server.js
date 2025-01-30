@@ -2,6 +2,9 @@ const express = require ('express');
 const path = require ('path');
 const app = express ();
 const port = 3000;
+const db = require ('./src/database/db');
+const transacoesRouter = require ('./src/routes/transacoes');
+app.use('/api', transacoesRouter);
 
 // Configuração apra servir arquivos estáticos (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname, 'public')));
